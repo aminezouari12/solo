@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "MVP-Repo-Starter",
   "main": "index.js",
+  "types": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -13,5 +15,8 @@
     "express": "^4.18.2",
     "mongoose": "^8.0.1",
     "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.20.0"
   }
 }
